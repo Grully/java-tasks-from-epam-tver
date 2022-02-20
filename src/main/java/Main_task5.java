@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class main_task5 {
+public class Main_task5 {
     public static void main(String[] args) {
         String[] months = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
         System.out.println("Enter the number of your month: ");

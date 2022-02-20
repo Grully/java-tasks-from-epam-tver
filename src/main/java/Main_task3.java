@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class main_task3 {
+public class Main_task3 {
     public static void main(String[] args) {
         System.out.println("Input a count of necessary numbers: ");
         int count = new Scanner(System.in).nextInt();
