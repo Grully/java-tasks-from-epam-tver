@@ -1,7 +1,9 @@
+package com.epam.javafundamentals;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Optional_task1 {
+public class OptionalTask1 {
 
     public static void main(String[] args) {
         int n  = 0;

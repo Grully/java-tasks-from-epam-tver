@@ -1,7 +1,8 @@
-import java.util.Random;
+package com.epam.javafundamentals;
+
 import java.util.Scanner;
 
-public class Main_task3 {
+public class MainTask3 {
     public static void main(String[] args) {
         System.out.println("Input a count of necessary numbers: ");
         int count = new Scanner(System.in).nextInt();

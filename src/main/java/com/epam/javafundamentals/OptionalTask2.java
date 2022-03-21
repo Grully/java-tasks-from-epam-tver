@@ -1,7 +1,9 @@
+package com.epam.javafundamentals;
+
 import java.util.Random;
 import java.util.Scanner;
 
-public class Optional_task2 {
+public class OptionalTask2 {
 
 
     public static void main(String[] args) {
@@ -13,9 +15,18 @@ public class Optional_task2 {
         int[][] matrix = new int[count][count];
         for (int i = 0; i < count; i++) {
             for (int j = 0; j < count; j++) {
-                matrix[j][i] = new Random().nextInt(bound)*(new Random().nextInt(2) == 0 ? (1) : (-1));
+                matrix[j][i] = new Random().nextInt(bound) * (new Random().nextInt(2) == 0 ? (1) : (-1));
             }
 
+        }
+
+        for (int j = 0; j < count; j++) {
+            for (int i = 0; i < count; i++) {
+                System.out.print("[" + matrix[i][j] + "] ");
+                if (i == count - 1) {
+                    System.out.print("\n");
+                }
+            }
         }
     }
 }

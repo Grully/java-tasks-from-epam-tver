@@ -1,4 +1,6 @@
-public class Main_task2 {
+package com.epam.javafundamentals;
+
+public class MainTask2 {
     public static void main(String[] args) {
         for (int i = args.length - 1; i != -1; i--) {
             System.out.println("" + args[i]);

@@ -1,6 +1,9 @@
+package com.epam.javafundamentals;
+
 import java.util.Scanner;
 
-public class Main_task1 {
+public class MainTask1{
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your name: ");
